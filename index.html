@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+    <link rel="stylesheet" type="text/css" href="./css/styletab.css">
+    <link rel="stylesheet" type="text/css" href="./css/stylemob.css">
+    <title>TuTangle Mobile</title>
+</head>
+<body>
+    <div class="header">
+        <div class= "logo">
+         <img src="./images/tutangle-icon.png" alt="TuTangle">
+        </div>
+
+        <div class="usernav">
+            <p class="username">Joe Burros</p>
+            <li id="usernavtop">Home |</li>
+            <li id="usernavtop">Settings |</li>
+            <li id="usernavtop">Log Out</a></li>
+        </div>        
+    </div>
+
+    <div class="nav">
+        <input type="text" placeholder="Search by Term, Member, or Entry Title" id="search">
+        <button type="submit" id="searchbtn">Search</button>
+ 
+        <div class="navheader"> 
+            <ul class="navlist">
+                <li class="navcat">
+                <span>Menu</span>
+                <ul class="mainnav">
+                    <li>Create New Entry</li>
+                    <li>My Topic Boxes</a></li>
+                    <li>Friends</li> 
+                    <li>Invite New Member</li>
+                    <li><!--<img src="./images/invite-icon.png" alt="download icon" id="imghor1">-->Topic Box Invites -2</li>
+                    <li><!--<img src="./images/friend-icon.png" alt="download icon" id="imghor2">-->Friend Request - 0</li>
+                </ul>
+                </li>
+            </ul> 
+        </div>
+    </div>
+
+    <div class="main">
+       
+        <div class="left">       
+            <ul>
+                <li><h3>Recent Searches<h3></li>
+                <li class="leftli">Nick Cave and the Bird Seeds
+                <img src="./images/download-icon-nav-left.png" alt="download icon" class="lefticon1"></li>
+                <li class="leftli">African Animals
+                <img src="./images/download-icon-nav-left.png" alt="download icon" class="lefticon2"></li>
+                <li><h3>Recent Searches<h3></li>
+                <li class="leftli">Different Versions of the Tristan Und Isoled Prelude
+                <img src="./images/left-nav-three-lines.png" alt="download icon" class="lefticon3"></li>
+                <li class="leftli">Music
+                <img src="./images/left-nav-three-lines.png" alt="download icon" class="lefticon4"></li>
+                <li class="leftli">Guitar
+                <img src="./images/left-nav-three-lines.png" alt="download icon" class="lefticon5"></li>
+                <li class="leftli">Bob Cohen
+                <img src="./images/left-nav-three-lines.png" alt="download icon" class="lefticon6"></li>
+                <li class="leftli">Mark Schank
+                <img src="./images/left-nav-three-lines.png" alt="download icon" class="lefticon7"></li>
+                <li class="leftli">Jefferson Dickey
+                <img src="./images/left-nav-three-lines.png" alt="download icon" class="lefticon8"></li>
+            </ul>
+        </div> 
+
+        <div class="middle">
+            <h2>Entries</h2>
+            <div class="tab">   
+                <p id="tabtxt1">All Entries</p>
+                <button id="btntab1">All Members</button>
+                <button id="btntab2">Friends</button>
+                <p id="tabtxt2">Subscribed</p>
+                <button id="btntab3">New Entries</button>
+                <button id="btntab4">New Comments</button>
+            </div>
+
+            <div class="content">
+                <img src="./images/image-1.png" alt="A man in his 30's" class="mainimg"> 
+                <p></p>
+                <p><span class="title">Day for Night by Francois Truffaut, a ground breaking film</span></p>
+                <p><span class=misc>by</span> <span class="name">Alan Coe</span><span class=misc> | Feb 10,2012 | </span><span class="sub">Subscribed</span></p>
+                <p><span class=misc>From Topic Box: </span><span class="topic">Behind the Scene</span></p>
+            </div>
+            <div class="content">
+                <img src="./images/image-2.png" alt="A smiling woman in her 20's" class="mainimg"> 
+                <p><span class="newent">NEW ENTRY!</span></p>
+                <p><span class="title">Blade Runner, The Director's cut</span></p>
+                <p><span class=misc>by</span> <span class="name">Mary Pilot</span><span class=misc> | Feb 8,2012</span></p>
+                <p><span class=misc>From Topic Box:</span> <span class="topic">Behind the Scene</span></p>
+            </div>
+            <div class="content">
+                <img src="./images/image-3.png" alt="A couple selfie standing" class="mainimg"> 
+                <p span class="newcmt">NEW COMMENT!</p>
+                <p><span class="title">The Best French Restaurant in Chicago</span></p>
+                <p><span class=misc>by</span> <span class="name">Jim Roy</span><span class=misc> | Feb 7,2012</span></p>
+                <p><span class=misc>From Topic Box:</span> <span class="topic">Chicago Restaurants Reviews</span></p>
+            </div>
+            <div class="content">
+                <img src="./images/image-4.png" alt="A man in sidewalk with sunglasses" class="mainimg"> 
+                <p></p>
+                <p><span class="title">The Meaning of The Night, Dark Book but incredibly well written</span></p>
+                <p><span class=misc>by</span> <span class="name">John-Peter Moise</span> <span class=misc>| Feb 7,2012 |</span> <span class="sub">Subscribed</span></p>
+                <p><span class=misc>From Topic Box:</span> <span clas="topic">Books Read & Books to Read</span></p>
+            </div>
+            <div class="content">
+                <img src="./images/image-5.png" alt="A woman selfie smiling" class="mainimg"> 
+                <p><span class="newinv">TOPICS BOX INVITE!</span></p>
+                <p><span class="title">Pea Pesto</span></p>
+                <p><span class=misc>by</span> <span class="name">Marianne Gig</span><span class=misc> | Feb 6,2012</span></p>
+                <p><span class=misc>From Topic Box: </span><span class="topic">Favorite Recipes</span></p>
+            </div>
+        </div>   
+
+        <div class="right">
+            <ul>
+                <li><h3>Video Tutorials</h3></li>
+                <li class="rightli">Overview of TuTangle</li>
+                <li class="rightli">Searching the Site</li>
+                <li class="rightli">Previous and Saved Searches</li>
+                <li class="rightli">The Topic Box Page</li>
+                <li class="rightli">Creating a Topic Box</li>
+                <li class="rightli">View Topic Box Entries</li>
+                <li class="rightli">Creating an Entry</li>
+                <li class="rightli">Privacy Settings</li>
+                <li class="rightli">Co-Authoring</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footnav">
+        <ul>
+            <li class="footnavhor">About Us
+                <img src="images/footer-dot.png" alt="a dot" class="footerdot"></li>
+            <li class="footnavhor">Contact Us <img src="images/footer-dot.png" alt="a dot" class="footerdot"></li>
+            <li class="footnavhor">Terms of Use <img src="images/footer-dot.png" alt="a dot" class="footerdot"></li>
+            <li class="footnavhor">Privacy Policy <img src="images/footer-dot.png" alt="a dot" class="footerdot"></li>
+            <li class="footnavhor">Feedback <img src="images/footer-dot.png" alt="a dot" class="footerdot"></li>
+        </ul>
+        </div>
+
+        <div class="footcopyright">
+            <p>&copy; TuTangle 2013</p>
+        </div>
+    </div>
+</body>
+</html>
