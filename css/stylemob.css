@@ -1,0 +1,552 @@
+
+@media only screen and (min-width: 480px) { 
+
+    .logo{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    }
+
+    .usernav{
+        float: right;
+        margin-right: 20px;
+        margin-top: -70px;
+    }
+
+    #usernavtop{
+        display: inline;
+    }
+
+    #search{
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        width: 270px;
+        background-image: url("../images/Searchbar-bg.png");
+        border: none;
+        padding: 2px;
+    }
+
+    #searchbtn{
+        width: 52px;
+        height: 20px;
+        color: white;
+        border: none;
+        background-image: url("../images/Searchbtn-bg.png");
+        padding: 2px;
+    }
+
+    .navheader * {
+        float: right;
+        margin-right: 4px;
+        margin-top: -11px;
+    }
+
+    .navheader li {
+    padding: 10px;
+    /*position : relative;*/
+    }
+
+    .navheader li:hover {
+    background : #dddddd;
+    }
+
+    .mainnav{
+        padding-top: 15px;
+    }
+
+    .navheader .navcat .mainnav {
+    display : none;
+    position : absolute;
+    background : #f5f5f5;;
+    width : 190px;
+    top: 130px;
+    right : 0;
+    }
+
+    .navheader .navcat:hover .mainnav {
+    display : block;
+    }
+    
+    #imghor{  
+        display: inline;  
+    }
+
+    .middle{
+        padding: 20px;
+    }
+
+    .tab{
+        border-bottom: 3px solid;
+        border-color: #2fc1d9;
+        padding-bottom: 89px;
+    }
+
+    #tabtxt1{
+        float: left;
+        background-image: url("../images/greytab-left-bg.png");
+        padding-bottom: 50px;
+        padding-right: 74px;
+        padding-left: 72px;
+        margin-top: 10px;
+        margin-right: 5px;
+        padding-top: 10px;
+    }
+
+    #tabtxt2{
+        float: left;
+        background-image: url("../images/greytab-right-bg.png");
+        padding-bottom: 50px;
+        padding-right: 72px;
+        padding-left: 74px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    #btntab1{
+        background-image: url("../images/allmemtab-bg.png");
+        margin-top: 59px;
+        border: none;
+        float: left;
+        margin-right: 5px;
+        margin-left: -210px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 9px;
+        padding-bottom: 4px;
+    }
+
+    #btntab2{
+        background-image: url("../images/greytab-bg.png");
+        margin-top: 58px;
+        border: none;
+        float: left;
+        margin-right: 5px;
+        margin-left: -100px;
+        padding-top: 15px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    #btntab3{
+        background-image: url("../images/greytab-bg.png");
+        margin-top: 53px;
+        border: none;
+        float: left;
+        margin-right: 5px;
+        margin-left: -210px;
+        padding-top: 15px;
+        padding-bottom: 4px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #btntab4{
+        background-image: url("../images/greytab-bg.png");
+        margin-top: 53px;
+        border: none;
+        float: left;
+        margin-right: 5px;
+        margin-left: -105px;
+        padding-top: 15px;
+        padding-bottom: 4px;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+
+    .content{
+        padding-top: 8px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid gray;
+        margin-top: 15px;
+    }
+
+    .mainimg{
+        float: left;
+        height: 70px;
+        margin-right: 15px;
+    }
+
+    .name, .topic, .newcmt, .newent{
+        color: #2fc1d9;
+        font-weight: bold;
+    }
+
+    .misc{
+        color: #727272;
+    }
+
+    .sub{
+        color: green; 
+    }
+
+    .newinv{
+        color: red; 
+        font-size: small;
+        font-weight: bold;
+    }
+
+    .title{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    ul {
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+    li{
+        display: block;
+    }
+
+    h3{
+        background-color: #2fc1d9;
+        padding: 10px; 
+    }
+
+    .left{    
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        width: 92%;
+    }
+
+    .leftli{
+        background-color: #f5f5f5;
+        height: 40px;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .lefticon1,.lefticon2,.lefticon3,.lefticon4,.lefticon5,.lefticon6,.lefticon7,.lefticon8{
+        height: 20px;
+    }
+
+    .lefticon1{  
+        padding-left: 160px;
+    }
+
+    .lefticon2{
+        padding-left: 255px;
+    }
+
+    .lefticon4{
+        padding-left: 328px;
+    }
+
+    .lefticon5{
+        padding-left: 322px;
+    }
+
+    .lefticon6{
+        padding-left: 290px;
+    }
+
+    .lefticon7{
+        padding-left: 278px;
+    }
+
+    .lefticon8{
+        padding-left: 247px;
+    }
+
+    .right{
+        background-color: #f5f5f5;
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        width: 92%;
+    }
+
+    .rightli{
+        background-color: #f5f5f5;
+        height: 40px;
+        padding-top: 10px;
+        padding-left: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .footnav{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footnavhor{
+        display: inline; 
+        padding-left: 14px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .footerdot{
+        width:1%;
+    }
+
+    .footcopyright{
+        margin-left: 170px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .logo{
+        width: 100%;
+        height:auto;
+        padding-left: 100px;
+    }
+
+    .usernav{
+        float: right;
+        margin-right: 140px;
+        margin-top: -70px;
+    }
+
+    #usernavtop{
+        display: inline;
+    }
+
+    .searchdiv {
+        position: relative;
+        margin-top: -60px;
+    }
+
+    #search{
+        margin-left: 360px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        width: 270px;
+        background-image: url("../images/Searchbar-bg.png");
+        border: none;
+        padding: 2px;
+    }
+
+    #searchbtn{
+        width: 52px;
+        height: 20px;
+        color: white;
+        border: none;
+        background-image: url("../images/Searchbtn-bg.png");
+        padding: 2px;
+    }
+
+    .main{
+        margin-top: 50px;
+    }
+
+    .left{    
+        float: left;
+        margin-left: 100px;
+        margin-right: 20px;
+        margin-top: 30px;
+        width: 22%;
+    }
+
+    .leftli{
+        background-color: #f5f5f5;
+        height: 40px;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .lefticon1,.lefticon2,.lefticon3,.lefticon4,.lefticon5,.lefticon6,.lefticon7,.lefticon8{
+        height: 20px;
+    }
+
+    .lefticon1{  
+        padding-left: 260px;
+    }
+
+    .lefticon2{
+        padding-left: 260px;
+    }
+
+    .lefticon3{
+        padding-left: 250px;
+    }
+
+    .lefticon4{
+        padding-left:250px;
+    }
+
+    .lefticon5{
+        padding-left: 250px;
+    }
+
+    .lefticon6{
+        padding-left: 250px;
+    }
+
+    .lefticon7{
+        padding-left: 250px;
+    }
+
+    .lefticon8{
+        padding-left: 247px;
+    }
+
+    .middle{
+        padding: 20px;
+        width: 37%;
+    }
+
+    .content{
+        padding-top: 8px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid gray;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .tab{
+        border-bottom: 3px solid;
+        border-color: #2fc1d9;
+        padding-bottom: 89px;
+    }
+
+    #tabtxt1{
+        float: left;
+        background-image: url("../images/greytab-left-bg.png");
+        padding-bottom: 50px;
+        padding-right: 74px;
+        padding-left: 74px;
+        margin-top: 10px;
+        margin-right: 5px;
+        padding-top: 10px;
+        width: 23%;
+    }
+
+    #tabtxt2{
+        float: left;
+        background-image: url("../images/greytab-right-bg.png");
+        padding-bottom: 50px;
+        padding-right: 74px;
+        padding-left: 74px;
+        margin-top: 10px;
+        padding-top: 10px;
+        width: 23%;
+    }
+
+    .right{
+        background-color: #f5f5f5;
+        float: right;
+        margin-left: 20px;
+        margin-right: 100px;
+        margin-top: 30px;
+        width: 22%;
+    }
+
+    .rightli{
+        background-color: #f5f5f5;
+        height: 40px;
+        padding-top: 10px;
+        padding-left: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #btntab1{
+        background-image: url("../images/allmemtab-bg.png");
+        margin-top: 59px;
+        border: none;
+        float: left;
+        margin-right: 5px;
+        margin-left: -270px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 9px;
+        padding-bottom: 4px;
+        width:23%;
+    }
+
+    #btntab2{
+        background-image: url("../images/greytab-bg.png");
+        margin-top: 58px;
+        border: none;
+        float: left;
+        margin-right: 5px;
+        margin-left: -130px;
+        padding-top: 15px;
+        padding-left: 21px;
+        padding-right: 21px;
+        width:20%;
+    }
+
+    #btntab3{
+        background-image: url("../images/greytab-bg.png");
+        margin-top: 53px;
+        border: none;
+        float: left;
+        margin-right: 5px;
+        margin-left: -260px;
+        padding-top: 15px;
+        padding-bottom: 4px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width:20%;
+    }
+
+    #btntab4{
+        background-image: url("../images/greytab-bg.png");
+        margin-top: 53px;
+        border: none;
+        float: left;
+        margin-right: 5px;
+        margin-left: -130px;
+        padding-top: 15px;
+        padding-bottom: 4px;
+        padding-right: 3px;
+        padding-left: 3px;
+        width:20%;
+    }
+ 
+    .nav{
+        position: absolute;
+    }
+    
+    .navheader{
+        margin-top: 70px;
+        float: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .mainnav .navlist{
+        list-style: none;
+        cursor: pointer;
+        width:100%;
+        display: inline;
+    }
+
+    .navcat{
+        display: inline;
+        width:100%;
+    }
+
+    .footnav{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footnavhor{
+        display: inline; 
+        padding-left: 100px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .footerdot{
+        width:0.5%;
+    }
+
+    .footcopyright{
+        margin-left: 1240px;
+        margin-top: -22px;
+        padding-bottom: 15px;
+    }
+
+} 
+    
