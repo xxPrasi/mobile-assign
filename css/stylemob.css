@@ -69,8 +69,12 @@
     display : block;
     }
     
-    #imghor{  
-        display: inline;  
+    #imghor1{  
+        display: none;  
+    }
+
+    #imghor2{  
+        display: none;  
     }
 
     .middle{
