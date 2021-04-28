@@ -514,6 +514,10 @@
         position: absolute;
     }
 
+    .navheader *{
+        float: left; 
+    }
+
     .navheader{
         margin-top: 70px;
         float: none;
@@ -529,10 +533,6 @@
         top: 10px;
         list-style: none;
         cursor: pointer;
-    }
-
-    .mainnav{
-        margin-right: 620px;
     }
     
     .footnav{
