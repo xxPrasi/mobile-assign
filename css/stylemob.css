@@ -502,29 +502,29 @@
         width:20%;
     }
  
+    .menu{
+        display: none;
+    }
+
     .nav{
         position: absolute;
     }
-    
+
     .navheader{
         margin-top: 70px;
         float: none;
     }
 
-    .menu{
-        display: none;
+    .navheader li:hover {
+    background : #dddddd;
     }
 
-    .mainnav .navlist{
+    .navheader .navcat .mainnav {
+        display : inline;
+        width : 100%;
+        top: 10px;
         list-style: none;
         cursor: pointer;
-        width:100%;
-        display: inline;
-    }
-
-    .navcat{
-        display: inline;
-        width:100%;
     }
 
     .footnav{
